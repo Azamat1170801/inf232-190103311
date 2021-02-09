@@ -1,0 +1,5 @@
+function points($twoPointers, $threePointers) {
+	$totalTwos = $twoPointers * 2;
+	$totalThrees = $threePointers * 3;
+	return $totalTwos + $totalThrees;
+}

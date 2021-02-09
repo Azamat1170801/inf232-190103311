@@ -1,0 +1,3 @@
+function points($kobe,$durant) {
+	return $kobe * 2 + $durant * 3;
+}

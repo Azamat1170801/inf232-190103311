@@ -1,0 +1,5 @@
+function inches_to_feet($inches) {
+	$feet = $inches / 12;
+	$flo = floor($feet);
+	return $flo;
+}

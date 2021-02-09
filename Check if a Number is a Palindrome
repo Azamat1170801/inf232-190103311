@@ -1,0 +1,8 @@
+function isPalindrome($n) {
+	if($n == strrev($n)) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}

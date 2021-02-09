@@ -1,0 +1,10 @@
+function isPalindrome($n) {
+	$sum = 0;
+	$original = $n;
+	while ($n) {
+		$tail = $n % 10;
+		$sum = $sum * 10 + $tail;
+		$n = floor($n / 10);
+	}
+	return $sum === $original;
+}
